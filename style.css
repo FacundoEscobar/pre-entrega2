@@ -1,0 +1,280 @@
+* {
+    margin: 0;
+    padding: 0;
+}
+
+@import url('https://fonts.googleapis.com/css2?family=Hind&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Mukta:wght@300&display=swap');
+
+
+
+
+
+
+
+/* header {
+    background-color: #2A2F4F;
+    height: 70px;
+}
+
+header div form {
+    display: flex;
+    justify-content: right;
+}
+
+header div form input {
+    position: absolute;
+    top: 1.4rem;
+    right: 1rem;
+    border: solid rgb(241, 239, 239) 5px;
+    border-radius: 20px;
+}
+
+.nav__header li {
+    display: inline;
+    padding: .8rem;
+}
+
+.nav__header li a {
+    color: white;
+    font-family: 'Hind', sans-serif;
+}
+
+.nav__header {
+    padding-top: 1.3rem;
+    margin-left: 31rem;
+    margin-bottom: 1rem;
+}
+
+ul li a {
+    text-decoration: none;
+}
+ */
+
+main div p{
+    font-family: 'Mukta', sans-serif;
+    font-size: 1.3rem;
+    color: white;
+}
+
+
+
+
+
+
+
+.contenedor__imagen {
+    display: flex;
+    justify-content: center;
+    padding-top: 1rem;
+}
+
+.banner {
+    border: solid rgb(83, 83, 83);
+    border-radius: 50%;
+    width: 15rem;
+    height: 230px;
+}
+
+
+
+.contenedor__section {
+    display: flex;
+    justify-content: space-evenly;
+    padding-top: 2rem;
+}
+
+.h4__fotos {
+    display: flex;
+    justify-content: space-between;
+}
+
+.nombres__1 {
+    padding-left: 17.8rem;
+}
+
+.nombres__2 {
+    padding-right: 1rem;
+}
+
+.nombres__3 {
+    padding-right: 17.8rem;
+}
+
+.parrafo {
+    padding: 2rem;
+}
+
+.img__finalPage {
+    display: flex;
+    justify-content: space-between;
+    padding: 0rem 3rem 3rem 5rem;
+}
+
+.twitter {
+    width: 50px;
+    height: 50px;
+}
+
+.facebook {
+    width: 50px;
+    height: 50px;
+}
+
+.instagram {
+    width: 50px;
+    height: 50px;
+}
+
+.banner:hover {
+    transform: rotate(360deg);
+    transition: .7s;
+}
+
+.contenedor{
+        background-color: #FBAB7E;
+        background-image: linear-gradient(to right, #394867 0%, #8294C4 100%);
+}
+
+div section img{
+    border: solid black 1px;
+    border-radius: 50%;
+}
+
+
+
+/* --------------FOOTER------------------------------ */
+
+
+
+
+footer nav div p {
+    padding-left: 68rem;
+    width: 35%;
+    display: inline;
+}
+
+footer {
+    background-color: #ECF2FF;
+    padding-top: 1.7rem;
+}
+
+
+.ul__footer li {
+    display: inline;
+    padding: 1rem;
+    margin-top: 10rem;
+}
+
+.ul__footer {
+    list-style-type: none;
+}
+
+footer nav ul li a {
+    color: rgb(0, 0, 0);
+    font-family: 'Hind', sans-serif;
+    text-decoration: none;
+}
+
+footer div p {
+    color: rgb(0, 0, 0);
+}
+
+/* ----------------------   CONTACTO ---------------- */
+.main{
+background-image: linear-gradient(to left, #ACB1D6 0%, #8294C4 100%);
+}
+
+
+
+.grid__contacto {
+    display: grid;
+    grid-template-columns: 30% 55% 15%;
+    grid-template-rows: min-content min-content min-content;
+    grid-template-areas:
+    "imagenContacto  parrafoContacto  ..."
+    "imagenContacto formulario aguscell"
+    "... Boton ...";
+}
+
+
+.grid__contacto .grid__contacto--imagen{
+    grid-area: imagenContacto;
+    margin: 1.5rem;
+}
+
+.grid__contacto .grid__contacto--parrafo{
+    grid-area: parrafoContacto;
+    margin-top: 1rem;
+    font-family: 'Mukta', sans-serif;
+    font-size: 1.4rem;
+}
+
+.grid__contacto .grid__contacto--form{
+    grid-area: formulario;
+}
+
+main{
+    padding: 5rem;
+}
+
+form label{
+    margin: 0.5rem;
+}
+
+.boton{
+    margin-top: 1rem;
+    margin-left: 1.6rem;
+    border-radius: 5px;
+}
+
+
+.grid__contacto .aguscell__img{
+    grid-area: aguscell;
+    border-radius: 50%;
+    position: absolute;
+    right: 4.5rem;
+    top: 34rem;
+    width: 13%;
+}
+
+.aguscell__img:hover{
+    animation: bounce;
+    animation-duration: 1.5s;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+input[type=number]::-webkit-inner-spin-button,
+input[type=number]::-webkit-outer-spin-button {
+    -webkit-appearance: none;
+    margin: 0;
+}
